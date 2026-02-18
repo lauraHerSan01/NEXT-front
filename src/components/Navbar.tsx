@@ -37,9 +37,9 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             className="flex flex-col justify-between w-5 h-4"
           >
-            <span className="h-[2px] w-full bg-white"></span>
-            <span className="h-[2px] w-full bg-white"></span>
-            <span className="h-[2px] w-full bg-white"></span>
+            <span className="h-0.5 w-full bg-white"></span>
+            <span className="h-0.5 w-full bg-white"></span>
+            <span className="h-0.5 w-full bg-white"></span>
           </button>
 
           {/* BOTÓN INICIAR SESIÓN */}
