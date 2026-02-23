@@ -3,6 +3,7 @@ import HomeScreen from "@/components/HomeScreen";
 import Servicios from "@/components/Servicios";
 import Proyectos from "@/components/Proyectos";
 import Equipo from "@/components/Equipo";
+import Nosotros from "@/components/Nosotros";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Servicios />
       <Proyectos />
       <Equipo />
+      <Nosotros />
     </main>
   );
 }
