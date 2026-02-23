@@ -1,11 +1,25 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className="fixed w-full z-50 bg-black">
+    <header
+      className={`fixed w-full z-50 transition-all duration-500 ${
+        scrolled ? "bg-transparent" : "bg-black"
+      }`}
+    >
       <div className="flex justify-between items-center px-12 py-2">
 
         {/* Logo */}
