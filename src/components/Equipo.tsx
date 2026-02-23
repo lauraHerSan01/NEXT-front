@@ -1,6 +1,6 @@
 export default function Equipo() {
   return (
-    <section className="relative py-32 px-6 md:px-16 text-white overflow-hidden">
+    <section className="relative py-28 px-6 md:px-16 text-white overflow-hidden">
       
       {/* Imagen de fondo */}
       <div className="absolute inset-0">
@@ -13,10 +13,14 @@ export default function Equipo() {
       </div>
 
       <div className="relative max-w-7xl mx-auto">
+        {/* Titulo */}
+        <h2 className="text-gray-400 text-sm tracking-[0.3em] mb-16">
+          NUESTRO EQUIPO
+        </h2>
         
         {/* Texto superior */}
         <div className="max-w-3xl mb-20">
-          <p className="text-2xl md:text-3xl font-light leading-relaxed text-gray-200">
+          <p className="text-2xl md:text-2xl font-light leading-relaxed text-gray-200">
             Un equipo multidisciplinado de Arquitectos, Diseñadores y Especialistas
             comprometidos con la excelencia
           </p>
@@ -28,30 +32,30 @@ export default function Equipo() {
           {/* Miembro 1 */}
           <div>
             <img
-              src="/maria.jpg"
-              alt="Maria Gonzales"
-              className="w-full h-105 object-cover"
+              src="/miembro1.jpeg"
+              alt="Wolfram Cañas"
+              className="w-full h-105 object-cover grayscale hover:grayscale-0 transition duration-500"
             />
             <h3 className="mt-6 text-xl font-semibold">
-              Maria Gonzales
+              Wolfram Cañas 
             </h3>
             <p className="text-gray-400 mt-1">
-              Directora Creativa
+              Director de Proyectos
             </p>
           </div>
 
           {/* Miembro 2 */}
           <div>
             <img
-              src="/carlos.jpg"
-              alt="Carlos Mendoza"
-              className="w-full h-105 object-cover"
+              src="/miembro2.png"
+              alt="Brayan Barreto"
+              className="w-full h-105 object-cover grayscale hover:grayscale-0 transition duration-500"
             />
             <h3 className="mt-6 text-xl font-semibold">
-              Carlos Mendoza
+              Brayan Barreto
             </h3>
             <p className="text-gray-400 mt-1">
-              Arquitecto Principal
+              Ingeniero en sistemas
             </p>
           </div>
 
