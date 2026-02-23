@@ -4,6 +4,7 @@ import Servicios from "@/components/Servicios";
 import Proyectos from "@/components/Proyectos";
 import Equipo from "@/components/Equipo";
 import Nosotros from "@/components/Nosotros";
+import Galeria from "@/components/Galeria";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Proyectos />
       <Equipo />
       <Nosotros />
+      <Galeria />
     </main>
   );
 }
