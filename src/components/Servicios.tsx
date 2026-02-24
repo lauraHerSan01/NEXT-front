@@ -29,9 +29,6 @@ export default function Servicios() {
       className="relative w-full min-h-screen bg-cover bg-center text-white px-20 flex flex-col justify-end"
       style={{ backgroundImage: "url('/servicios-bg.png')" }}
     >
-      {/* Overlay oscuro */}
-      <div className="absolute inset-0 bg-black/10"></div>
-
       <div className="relative z-10 max-w-7xl mx-auto pb-8 w-full">
 
         {/* Header */}

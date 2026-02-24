@@ -105,7 +105,7 @@ export default function Galeria() {
       </div>
 
       {/* Carrusel */}
-      <div className="relative h-[550px] overflow-hidden">
+      <div className="relative h-137.5 overflow-hidden">
         
         <div
           className="flex transition-transform duration-1000 ease-in-out"
@@ -116,7 +116,7 @@ export default function Galeria() {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className="min-w-full h-[550px] relative"
+              className="min-w-full h-137.5 relative"
             >
               <img
                 src={slide.image}

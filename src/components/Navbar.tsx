@@ -39,11 +39,11 @@ export default function Navbar() {
                 : "translate-x-10 opacity-0 pointer-events-none"
             }`}
           >
-            <a href="#" className="hover:text-white">Servicios</a>
-            <a href="#" className="hover:text-white">Proyectos</a>
-            <a href="#" className="hover:text-white">Equipo</a>
-            <a href="#" className="hover:text-white">Nosotros</a>
-            <a href="#" className="hover:text-white">Contacto</a>
+            <a href="#servicios" className="hover:text-white">Servicios</a>
+            <a href="#proyectos" className="hover:text-white">Proyectos</a>
+            <a href="#equipo" className="hover:text-white">Equipo</a>
+            <a href="#nosotros" className="hover:text-white">Nosotros</a>
+            <a href="#contacto" className="hover:text-white">Contacto</a>
           </nav>
 
           {/* ICONO MENÚ */}
@@ -66,7 +66,7 @@ export default function Navbar() {
 
           {/* BOTÓN SOLICITAR OBRA */}
           <a
-            href="/solicitud"
+            href="/solicitud-obra"
             className="bg-white text-black px-6 py-2 text-sm tracking-wide hover:bg-gray-200 transition"
           >
             Solicitar obra
